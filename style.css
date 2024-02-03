@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    color: rgb(27, 25, 25);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(4, 25, 51);
+    width: 450px;
+    height: 400px; 
+    justify-content: start;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgb(110, 109, 109);
+    
+
+}
+.submitBtn{
+    margin-top: px;
+    padding: 7px;
+    border: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.submitBtn:hover{
+    background-color: rgb(236, 233, 233);
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.delete{
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 100%, 50%);
+    cursor: pointer;
+    margin-left: 7px;
+}
+.sub-container{
+    display: flex;
+    max-width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: start;
+    align-items: end;
+    color: white;
+
+}
+.todoDetails{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.error{
+    background-color: rgb(255, 255, 255);
+}
